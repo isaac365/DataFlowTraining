@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-QNC114M"
   DTS:CreatorName="DESKTOP-QNC114M\iavit"
-  DTS:DTSID="{FAF0FF8D-F393-4440-B3BB-2B908415A228}"
+  DTS:DTSID="{1A22842F-77B8-449D-A82B-6BA8BFC262B7}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="14.0.3002.107"
   DTS:LocaleID="1033"
-  DTS:ObjectName="04_DerivedColumnDemo"
+  DTS:ObjectName="04_DerivedColumn"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{CE6CF89D-38FA-4487-8751-6D709CBF8BA5}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{DD252AB4-33E5-4C3D-BBD0-4C89FD04C1E6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -552,6 +552,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="30.8571433826369,128.470590037046" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="34.2857148695965,40.9882358689622" />
@@ -559,10 +563,6 @@
           Size="171.2,41.6"
           Id="Package\Data Flow Task\Flat File Destination"
           TopLeft="21.1428575029179,205.552944059273" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="30.8571433826369,128.470590037046" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="108.171429126117,82.5882358689622">
