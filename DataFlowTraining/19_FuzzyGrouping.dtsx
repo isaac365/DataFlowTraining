@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="19_FuzzyGrouping"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{3E3CA34F-743E-4244-8EF2-3E432C3A66C2}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{2752FB4E-B2B8-44CB-9B0E-346DB844A3C3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -344,7 +344,7 @@
                 <property
                   dataType="System.Single"
                   description="Specifies the minimum similarity threshold, expressed as a value between 0 and 1."
-                  name="MinSimilarity">0.8</property>
+                  name="MinSimilarity">0.5</property>
                 <property
                   dataType="System.String"
                   description="Specifies the white-space and punctuation characters used to separate strings into multiple words."
