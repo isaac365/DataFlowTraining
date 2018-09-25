@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="22_Pivot"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{79661E38-336F-4E12-854C-06A1A6769621}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{C8A2DD92-B5B6-43F2-90E6-64BC29794540}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
